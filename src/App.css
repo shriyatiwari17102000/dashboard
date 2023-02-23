@@ -1,0 +1,413 @@
+.assignment{
+  width: 40%;
+}
+h1{
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  font-family: cursive;
+  box-sizing: border-box;
+    background-color: white;
+    color: #3a7c8a;
+    width: 30%;
+    margin-left: 37rem;
+    border-radius: 10px;
+}
+/* .table_table{
+  background-color: white;
+
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -80px;
+  font-family : cursive;
+  margin-left: 26rem;
+} */
+.table_table{
+  background: white;
+  font-style: italic;
+  width: 50%;
+  text-align: center;
+  margin-left: 23.6rem;
+  margin-top: -8px;
+}
+
+/* th, tr{
+  color: white;
+} */
+th{
+  font-size:20px;
+  color: white!important;
+}
+/* th:hover{
+  color: rgb(176, 123, 156);
+} */
+tr:hover{
+  /* color: black !important; */
+  cursor: pointer;
+}
+.sche_thead{
+  background-color: #4088bb;
+}
+.sche_h1{
+  font-size: 34px;
+  background-color: #4088bb;
+   border-radius: 0%;
+    color: white;
+    width: 49.8%;
+    padding: 4px;
+    margin-left: 23.7rem;
+}
+.btn_div{
+  margin-top: 26rem;
+}
+.btn_inn{
+  margin-left: -43rem;
+  padding: 11px 40px;
+  color: #224c54;
+  border: navajowhite;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.div_inn{
+  text-align: center;
+  /* margin-top: 3rem; */
+  margin-bottom: 2rem;
+  margin-left: 95px;
+}
+.label_sche{
+  font-size: 20px;
+  font-weight: bold;
+  /* color: white; */
+  margin-right: 18rem;
+}
+input{
+  width: 24%;
+  padding: 6px;
+  border-radius: 3px;
+  /* border: none; */
+}
+.btn_sch_div{
+   margin-left: 46rem;
+margin-top: 15px;
+padding-bottom: 15rem;
+}
+  .btn_sche {
+    padding: 6px 45px;
+    border: none;
+    border-radius: 22px;
+    color: #205964;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .login_link{
+    /* background-color:#205964; */
+    font-size: 40px;
+    padding-bottom: 24px;
+  }
+  .login_li{
+    list-style: none;
+    text-align: center;
+    padding-top: 144px;
+    margin-left: 14rem;
+  }
+  .login_user{
+    text-decoration: none;
+color: #33545b;
+font-weight: bold;
+font-style: italic;
+  }
+
+  .div_main_login{
+    display: flex;
+    background-color: #17888833
+    ;
+    height: 45rem;
+    margin-top: -17px;
+    padding-top: 94px;
+  }
+
+  .login_p{
+    width: 30%;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+    /* text-align: center; */
+    margin-left: 15rem;
+    margin-top: 168px;
+  }
+  .login_form{
+    width: 30%;
+    background-color: white;
+    margin-left: 6rem;
+    margin-top: 6rem;
+    height: 22rem;
+    border-radius: 10px;
+  }
+  .login_label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+  }
+  .login_input{
+    width: 91%;
+    padding: 6px;
+    border-radius: 3px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+  }
+  .login_btn_div{
+    margin-top: 30px;
+  }
+  .login_btn{
+    width: 90%;
+    margin-left: 21px;
+    padding: 5px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #12768b;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 7px;
+  }
+ 
+  .div_login{
+    background-color: aliceblue;
+  }
+
+  .img_logo{
+    width: 77px;
+    height: 74px;
+    border-radius: 100%;
+    margin-top: -27rem;
+    margin-left: 4rem;
+  }
+  .img_para_login{
+    margin-top: -12rem;
+    margin-left: 49px;
+    color: #223e18;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .assignment_div{
+    margin-top: 70px;
+    border: 1px solid;
+    padding: 10px;
+    width: 84%;
+    border-radius: 3px;
+  }
+  .stu_sign{
+    border: 1px solid black;
+  }
+  .s1{
+    margin-right: 19rem;
+  }
+  .div_stu{
+    text-align: center;
+  }
+  .stu_form{
+    background-color: rgb(194 219 255);
+    padding-top: 43px;
+    height: 80rem;
+  }
+  .nav{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 6rem;
+  }
+  .nav_li{
+    font-family: cursive;
+    margin-left: 40px;
+    margin-top: 21px;
+  }
+  .nav_link{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .nav_link:hover{
+    color: white;
+  }
+  .main_nav{
+    padding: 6px;
+    border-bottom: 2px solid white;
+    background-color: rgb(27 59 106);
+  }
+  .assign_div{
+    background-color: rgb(194 219 255);
+    height: 700px;
+    padding-top: 45px;
+  }
+  .assign{
+    background-color: white;
+    width: 37%;
+    text-align: center;
+    margin-left: 29.8rem;
+    margin-top: 50px;
+    height: 26rem;
+    border-radius: 10px;
+  }
+  .assign_h1{
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    font-family: cursive;
+    box-sizing: border-box;
+    background-color: white;
+    color: #3a7c8a;
+    width: 24%;
+    padding: 5px;
+    margin-left: 36rem;
+    border-radius: 10px;
+  }
+  .s2{
+    margin-top: 35px;
+  }
+  .btn_assign{
+    padding: 10px 53px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: navajowhite;
+    background-color: var(--bs-link-color);
+    border-radius: 23px;
+  }
+  .nav_logo{
+    width: 88px;
+    height: 85px;
+    border-radius: 100%;
+    border: 2px solid #b1a176;
+  }
+  .fetchassign{
+    width: 59%;
+    background-color: white;
+    height: 394px;
+    text-align: center;
+    margin-left: 20rem;
+  }
+  .fetchass_thead{
+    font-family: cursive;
+    background-color: #4088bb ;
+  }
+  .th1{
+    color: white !important;
+  }
+  .main_fetch{
+    background-color: rgb(194 219 255);
+    height: 700px;
+  }
+  .sign_tea{
+    padding-top: 41px;
+    /* margin-right: 26.6rem !important; */
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .signtea_h1{
+    font-style: italic;
+    font-family: cursive;
+    box-sizing: border-box;
+    background-color: #193d71;
+    padding: 14px;
+    color: white;
+    width: 39%;
+    margin-left: 28rem;
+    border-radius: 0px;
+}
+/* .sh1{
+  padding: 2px;
+  width: 31%;
+  margin-left: 31.9rem;
+} */
+  
+  .div_tea,  .div_stu{
+    width: 39%;
+    background-color: white;
+    margin-left: 28rem;
+    margin-top: -8px;
+    border-radius: 5px;
+    height: 63rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(211 222 224), 0 8px 16px rgb(0 0 0 / 10%);
+
+  }
+  .tea_sign{
+    width: 80%;
+    padding: 9px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  /* .div_tea{
+    background-color: white;
+    width: 40%;
+    margin-left: 28rem;
+    margin-top: 30px;
+    border-radius: 8px;
+    text-align: center;
+  } */
+  .dashstu_img{
+    height: 100%;
+    width: 100%;
+  }
+  .dash_img{
+    margin-left: 8rem;
+    margin-top: 46px;
+    border-radius: 10px;
+    box-shadow: 4px 0px 6px 1px grey;
+  }
+  .tea_dash{
+    background-color: rgb(194 219 255);
+    height: 800px;
+  }
+
+
+  .carousel-control-prev-icon, .carousel-control-next-icon  {
+    display: none;
+  }
+  .carousel-indicators{
+    display: none
+  }
+  .multicolortext{
+
+      font-size: 3vw; /* make our h1 tag larger */
+      font-family: sans-serif; /* choosing our font */
+      background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgb(56 178 178 / 50%) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(21 75 17) 51%, rgb(224, 246, 255) 60%, rgb(20 117 89) 61%);/* you can change the colors based on your preference */
+      background-clip: text; /*it defines how far the background should extend within an element, here we set it to text */
+      -webkit-background-clip: text; /*for browsers compatibility */
+      -webkit-text-fill-color: transparent; /* specifies the fill color of text characters. We use transparent to use the background as our text fill  */
+      animation: wave 2000ms ease alternate infinite;
+      transition: all 0.4s ease;
+      width: 50%;
+      margin-left: 45rem;
+      margin-top: -19rem;
+      font-weight: 600;
+    }
+    @keyframes wave {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 50vw 10px;
+      }
+    }
+  .m1{
+    margin-left: -11rem !important;
+  }
+  .m1s{
+    margin-left: 41rem;
+  }
+
+  .style_span{
+margin-left: -20rem;
+color: red;
+  }
